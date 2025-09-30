@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  --font-huninn: 'jf-openhuninn', 'sans-serif';
+
+  --color-orange-dark: #E5723A;
+  --color-orange-default: #E99166;
+  --color-orange-tint: #ECD7A3;
+  --color-green-dark: #1A4B3E;
+}
+
+body {
+  /* font-family: 'YRDZST', sans-serif; */
+  /* font-family: 'PenCrane', sans-serif; */
+  font-family: "Zen Kurenaido", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.back-home-btn .icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .back-home-btn .text {
+    display: none;
+  }
+
+  .back-home-btn .icon {
+    display: inline;
+    font-size: 1.5rem;
+  }
+}
+
+.page-background {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("@/assets/images/Web_Background_Common2.png");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .page-background {
+    background-image: url("@/assets/images/Mobile/Mobile_Background_Common1.png");
+  }
+}
+
+.content-scroller {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow-y: auto;
+  z-index: 1;
+  /* Ensure content is above clouds */
+}
+
+
+.loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.loader {
+  width: 220px;
+  height: auto;
+  animation: float 2s ease-in-out infinite;
+  margin-bottom: 20px;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+}

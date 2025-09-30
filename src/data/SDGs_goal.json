@@ -1,0 +1,74 @@
+[
+    {
+        "title": "全部",
+        "value": 0
+    },
+    {
+        "title": "消除貧窮",
+        "value": 1
+    },
+    {
+        "title": "終結飢餓",
+        "value": 2
+    },
+    {
+        "title": "健康與福祉",
+        "value": 3
+    },
+    {
+        "title": "優質教育",
+        "value": 4
+    },
+    {
+        "title": "性別平等",
+        "value": 5
+    },
+    {
+        "title": "淨水與衛生",
+        "value": 6
+    },
+    {
+        "title": "可負擔的<br/>永續能源",
+        "value": 7
+    },
+    {
+        "title": "就業與<br/>經濟成長",
+        "value": 8
+    },
+    {
+        "title": "永續工業<br/>與基礎建設",
+        "value": 9
+    },
+    {
+        "title": "消弭<br/>不平等",
+        "value": 10
+    },
+    {
+        "title": "永續城鄉",
+        "value": 11
+    },
+    {
+        "title": "責任消費<br/>與生產",
+        "value": 12
+    },
+    {
+        "title": "氣候行動",
+        "value": 13
+    },
+    {
+        "title": "永續海洋<br/>與保育",
+        "value": 14
+    },
+    {
+        "title": "陸域生態",
+        "value": 15
+    },
+    {
+        "title": "制度的正義<br/>與和平",
+        "value": 16
+    },
+    {
+        "title": "永續發展<br/>夥伴關係",
+        "value": 17
+    }
+]
