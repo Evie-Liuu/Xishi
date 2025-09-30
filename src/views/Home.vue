@@ -1,9 +1,6 @@
 <template>
   <main
-    :class="[
-      'relative h-screen w-screeen flex flex-col justify-center items-center lg:gap-8 bg-[url(\'@/assets/images/Mobile/Mobile_Background.png\')] bg-cover bg-center overflow-hidden lg:bg-[url(\'@/assets/images/Web_Background.png\')]',
-      'transition-all duration-2000 ease-out',
-    ]"
+    class="relative h-screen w-screeen flex flex-col justify-center items-center lg:gap-8 bg-[url('@/assets/images/Mobile/Mobile_Background.png')] bg-cover bg-center overflow-hidden lg:bg-[url('@/assets/images/Web_Background.png')]"
   >
     <!-- School Logo -->
     <div class="absolute w-full h-full top-0 left-0">
