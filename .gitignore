@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 
+/docs
+
 # Environment variables
 .env
 .env.local
@@ -22,6 +24,7 @@ dist-ssr
 
 # Firebase configuration
 src/firebase.js
+.firebase
 
 # Editor directories and files
 .vscode/*
